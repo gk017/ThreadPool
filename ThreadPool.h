@@ -97,7 +97,7 @@ inline ThreadPool::~ThreadPool()
 }
 
 //get number of tasks
-size_t ThreadPool::nTasks() const
+inline size_t ThreadPool::nTasks() const
 {
     return tasks.size();
 }
